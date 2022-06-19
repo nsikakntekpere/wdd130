@@ -42,6 +42,7 @@ nav{
 #hero-msg h4{
     color: white;
 }
+
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
@@ -97,6 +98,7 @@ nav{
     grid-row: 6/7;
     padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
 }
 footer{
     background-color: rgba(61, 37, 6, 0.795);
@@ -107,9 +109,22 @@ footer{
     align-items: center;
 }
 .home-title{
-    font-size: 2em;
+    font-size: 200px;
     margin-top: 10px;
 }
+.home-title1{
+    font-size: 150px;
+    margin-top:50%;
+    color: #fff;
+}
+.grid2{
+    display: grid;
+    grid-gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
 .book, .join{
     font-size: 18px;
     padding: 15px 30px;
@@ -140,6 +155,8 @@ h4{
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    color: #fff;
+    font-size: 70px;
 }
 .book, .join{
     color: blue;
@@ -194,7 +211,7 @@ footer .social img{
     box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover{
-    opacity: .6px;
+    opacity: 0.6px;
     transform: scale(1.1);
 }
 main section img{
