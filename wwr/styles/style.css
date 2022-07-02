@@ -185,38 +185,6 @@ nav a:hover{
     color: black;
     padding: 15px;
 }
-footer h3{
-    color: white;
-}
-footer a{
-    color: aqua;
-    text-decoration: none;
-}
-footer a:hover{
-    color: red;
-    text-decoration: underline;
-}
-.icon{
-    width: 80px;
-}
-.logo{
-    width: 80px;
-}
-footer .social img{
-    padding-top: 15px;
-}
-.card-img{
-    border: 10px solid #de6b48;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.card-img:hover{
-    opacity: 0.6px;
-    transform: scale(1.1);
-}
-main section img{
-    box-sizing: border-box;
-}
 #feedback{
     background-color: antiquewhite;
     position: absolute;
@@ -294,10 +262,44 @@ form {
        between the labels and their text fields */
     margin-left: .5em;
   }
+footer h3{
+    color: white;
+}
+footer a{
+    color: aqua;
+    text-decoration: none;
+}
+footer a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.icon{
+    width: 80px;
+}
+.logo{
+    width: 80px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.card-img{
+    border: 10px solid #de6b48;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover{
+    opacity: 0.6px;
+    transform: scale(1.1);
+}
+main section img{
+    box-sizing: border-box;
+}
+
   .p2{
     text-align: justify;
     margin: 25px;
   }
+  
 @media screen and(max-width: 900px) {
     #hero, .home-grid{
         display: block;
