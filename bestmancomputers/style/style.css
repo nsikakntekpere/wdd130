@@ -7,7 +7,7 @@
 
   /* change the values below to your colors from your palette */
   --primary-color: #942911;
-  --secondary-color: #90aa86;
+  --secondary-color:var(--primary-color);
   --accent1-color: #de6b48;
   --accent2-color: white;
 }
@@ -35,6 +35,8 @@ nav{
 a{
     color: #fff;
     font-weight: bolder;
+    text-decoration: none;
+    
 }
 a:hover{
     background-color: blue;
