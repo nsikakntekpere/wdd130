@@ -68,9 +68,10 @@ p{
     padding-right: 30px;
   }
 .div-contact{
-    display: flex;
-    padding: 20px;
-    grid-gap: 15px;
+    float: left;
+    padding-right: 30px;
+    padding: 30px;
+    
 }
 
 form {
