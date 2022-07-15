@@ -61,17 +61,19 @@ p{
     text-align: justify;
     font-size: 30px;
 }
+.div-services{
+  float: left;
+  padding-right: 30px;
+  padding: 20px;
+  
+  
+}
 .div-contact{
     display: flex;
     padding: 20px;
     grid-gap: 15px;
 }
-.div-services{
-    display: flex;
-    padding: 20px;
-    grid-gap: 15px;
-    padding: 50px;
-}
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
